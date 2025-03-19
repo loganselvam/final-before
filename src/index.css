@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+    /* Glass Effect Scrollbar */
+    .glass-scrollbar::-webkit-scrollbar {
+      width: 8px;
+    }
+  
+    .glass-scrollbar::-webkit-scrollbar-track {
+      background: rgba(255, 255, 255, 0.1); /* Transparent track */
+      backdrop-filter: blur(8px); /* Glass blur effect */
+      border-radius: 10px;
+    }
+  
+    .glass-scrollbar::-webkit-scrollbar-thumb {
+      background: rgba(255, 255, 255, 0.3); /* Light glassy scrollbar */
+      border-radius: 10px;
+      transition: 0.3s ease-in-out;
+    }
+  
+    .glass-scrollbar::-webkit-scrollbar-thumb:hover {
+      background: rgba(255, 255, 255, 0.5); /* Slightly brighter on hover */
+    }
+  }
