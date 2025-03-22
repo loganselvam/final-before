@@ -13,7 +13,7 @@ const Contact = () => {
             <input
               type="text"
               placeholder="Enter your name"
-              className="w-full p-3 mt-1 bg-gray-700 text-white rounded-lg border border-gray-600 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+              className="about-container"
             />
           </div>
 
@@ -22,7 +22,7 @@ const Contact = () => {
             <input
               type="email"
               placeholder="Enter your email"
-              className="w-full p-3 mt-1 bg-gray-700 text-white rounded-lg border border-gray-600 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+              className="about-container"
             />
           </div>
 
@@ -31,7 +31,7 @@ const Contact = () => {
             <textarea
               rows="3"
               placeholder="Type your message here..."
-              className="w-full p-3 mt-1 bg-gray-700 text-white rounded-lg border border-gray-600 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+              className="about-container"
             ></textarea>
           </div>
 

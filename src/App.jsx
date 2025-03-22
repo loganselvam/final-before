@@ -24,7 +24,7 @@ function App() {
     <>
       <div className=' font-monsorate  h-screen bg-black w-screen containe'> 
         <h1 className='text-5xl text-left p-3  text-green-300' >Portfolio</h1>
-        <div className='grid grid-cols-[3fr_1.2fr] m-3 p-4 bg-[linear-gradient(142deg,rgb(43,42,47)_36%,rgba(9,9,121,0.89)_95%)]]'>
+        <div className='grid grid-cols-[3fr_1.2fr] p-4 bg-[linear-gradient(142deg,rgb(43,42,47)_36%,rgba(9,9,121,0.89)_95%)]]'>
 
 
            <div className='h-[500px] overflow-y-scroll glass-scrollbar  snap-y snap-mandatory p-4 '>
