@@ -80,7 +80,7 @@ export default function Portfolio() {
 
           {/* Project Section */}
           <div id="project" className="mt-4 min-h-[400px] p-1 snap-start">
-            <div className="ms-7">
+            <div className="ms-7 ">
               <h1 className="text-4xl inline text-left text-amber-200">Project</h1>
             </div>
             <Projects />
