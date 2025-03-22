@@ -16,7 +16,7 @@ const projects = [
   {
     name: "Black Jack",
     description: "A fun Blackjack game built during leisure time for practice.",
-    year: "Time Pass Project",
+    year: "Project",
     bgColor: "from-gray-600 to-gray-800",
   },
   {
@@ -30,7 +30,7 @@ const projects = [
 const Projects = () => {
   return (
     <div className=" mt-12 text-white  ">
-      <div className="grid grid-cols-4  p-10 mb-20 gap-6">
+      <div className="grid laplarge:grid-cols-4 lapsmall:grid-cols-2 p-10 mb-20 gap-6">
         {projects.map((project, index) => (
           <div
             key={index}
