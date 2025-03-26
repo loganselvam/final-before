@@ -17,7 +17,7 @@ export default function Portfolio() {
     <div className={`font-montserrat h-screen bg-black w-screen ${menuOpen ? "overflow-hidden" : ""}`}>
       <h1 className="text-5xl text-left p-3 text-green-300">Portfolio</h1>
 
-      <div className="grid grid-cols-1 tablet:grid-cols-[3fr_1.2fr] m-3 p-4 ">
+      <div className="grid grid-cols-1 tablet:grid-cols-[3fr_1.2fr] m-3 p-1 ">
         {/* Mobile Menu Button */}
         <div className="block tablet:hidden text-white text-3xl flex justify-between items-center px-4">
           <span>Menu</span>
@@ -50,7 +50,7 @@ export default function Portfolio() {
         )}
 
         {/* Left Section (Main Content) */}
-        <div className="h-[500px] overflow-y-scroll glass-scrollbar snap-y snap-mandatory p-4">
+        <div className="h-[450px] overflow-y-scroll glass-scrollbar snap-y snap-mandatory p-4">
           {/* Home Section */}
           <div id="home" className="p-2 grid tablet:grid-cols-[3fr_2fr] mobile:grid-rows-2 relative snap-start min-h-[400px]">
             <div>
@@ -67,19 +67,19 @@ export default function Portfolio() {
           </div>
 
           {/* About Me */}
-          <div id="about" className="mt-20 min-h-[400px] p-1  snap-start">
+          <div id="about" className="mt-10 min-h-[400px]  p-1  snap-start">
             <h1 className="text-4xl ms-5 text-left text-amber-200">About</h1>
             <AboutMe />
           </div>
 
           {/* Skills Section */}
-          <div id="skill" className="mt-20  min-h-[400px] p-1 snap-start">
+          <div id="skill" className="mt-20  min-h-[400px] max-h-[500px] p-1 snap-start">
             <h1 className="text-4xl ms-20 text-left inline text-amber-200">Skills</h1>
             <SkillsSection />
           </div>
 
           {/* Project Section */}
-          <div id="project" className="mt-4 min-h-[400px] p-1 snap-start">
+          <div id="project" className="mt-4 min-h-[400px]  p-1 snap-start">
             <div className="ms-7">
               <h1 className="text-4xl inline text-left text-amber-200">Project</h1>
             </div>
@@ -87,7 +87,7 @@ export default function Portfolio() {
           </div>
 
           {/* Contact Section */}
-          <div id="contact" className="mt-4 min-h-[400px] p-2 snap-start">
+          <div id="contact" className="mt-4 min-h-[400px]  p-2 snap-start">
             <h1 className="text-4xl inline text-left text-amber-200">Contact</h1>
             <Contact />
           </div>

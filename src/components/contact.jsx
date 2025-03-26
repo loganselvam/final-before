@@ -45,7 +45,7 @@ const Contact = () => {
         {/* Resume Download Section */}
         <div className="flex justify-center items-center">
           <a
-            href="src/assets/LoganCV-SD.pdf" // Change this to the actual resume path
+            href="src\assets\LoganCV-SD.pdf" // Change this to the actual resume path
             download
             className="inline-block bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-lg transition-all"
           >
