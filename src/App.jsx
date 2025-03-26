@@ -34,10 +34,10 @@ function App() {
                 <h1 className='text-8xl absolute overflow-hidden  whitespace-nowrap animate-typing border-r-4 border-white top-40 left-10  w-24 text-white'>LOGAN</h1>
                 <h3 className='absolute top-64 text-xl left-48 text-green-300'>Software Developer</h3>
                 </div>
-                <div className="flex items-center justify-center">
+                <div className="imagealt flex items-center justify-center">
                     <img
                       src="src/assets/logan b-w.png"
-                      alt="Loganatha"
+                      alt="I'm using a free netlify hosting method to host so it take some time to take load my image "
                       className=" object-contain  w-full h-96  shadow-lg "
                     />
                 </div>

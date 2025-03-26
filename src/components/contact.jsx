@@ -11,6 +11,7 @@ const Contact = () => {
           <div>
             <label className="block text-sm font-medium text-gray-300">Name</label>
             <input
+            id="name"
               type="text"
               placeholder="Enter your name"
               className="w-full p-3 mt-1 bg-gray-700 text-white rounded-lg border border-gray-600 focus:ring-2 focus:ring-blue-500 focus:outline-none"
@@ -21,6 +22,7 @@ const Contact = () => {
             <label className="block text-sm font-medium text-gray-300">Email</label>
             <input
               type="email"
+              id="email"
               placeholder="Enter your email"
               className="w-full p-3 mt-1 bg-gray-700 text-white rounded-lg border border-gray-600 focus:ring-2 focus:ring-blue-500 focus:outline-none"
             />
@@ -30,6 +32,7 @@ const Contact = () => {
             <label className="block text-sm font-medium text-gray-300">Purpose of Contact</label>
             <textarea
               rows="3"
+              id="info"
               placeholder="Type your message here..."
               className="w-full p-3 mt-1 bg-gray-700 text-white rounded-lg border border-gray-600 focus:ring-2 focus:ring-blue-500 focus:outline-none"
             ></textarea>
