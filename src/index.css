@@ -26,7 +26,6 @@
     }
   }
 
-
   img[alt] {
     
     color: white; 
@@ -34,3 +33,6 @@
     
   }
   
+  .about-container {
+    @apply w-full p-3 mt-1 bg-inherit text-white  border-b-neutral-800 border-b-2 focus:ring-1 focus:ring-neutral-800 focus:outline-none
+  }
