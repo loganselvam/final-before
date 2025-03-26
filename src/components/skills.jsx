@@ -14,10 +14,10 @@ const skills = [
 
 const SkillsSection = () => {
   return (
-    <section id="skills" className="  p-10 min-h-[385px] mt-4  text-white">
+    <section id="skills" className=" min-h-[385px] mt-4  text-white">
       
 
-      <div className=" grid grid-cols-2 gap-4 p-4  ">
+      <div className=" grid grid-cols-2  gap-4 p-2  ">
       {skills.map((skill, index) => (
           <div
             key={index}
