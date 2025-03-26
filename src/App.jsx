@@ -62,7 +62,7 @@ export default function Portfolio() {
               </h3>
             </div>
             <div className="flex items-center justify-center">
-              <img src="src/assets/logan-bw.png" alt="Loganatha" className="object-contain w-full h-96 shadow-lg" />
+              <img src="src/assets/logan-bw.png" alt="i am using the netlify free hosting service so it's take some time to  load image  " className="object-contain w-full h-96 shadow-lg" />
             </div>
           </div>
 
