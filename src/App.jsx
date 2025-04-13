@@ -4,6 +4,7 @@ import SkillsSection from "./components/skills";
 import Projects from "./components/project";
 import Contact from "./components/contact";
 import { Menu, X } from "lucide-react"; // Importing icons
+import loganImg from './assets/logan-bw.png';
 
 export default function Portfolio() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -62,7 +63,7 @@ export default function Portfolio() {
               </h3>
             </div>
             <div className="flex items-center justify-center">
-              <img src="../src/assets/logan-bw.png" alt="i am using the netlify free hosting service so it's take some time to  load image  " className="object-contain w-full h-96 shadow-lg" />
+              <img src={loganImg} alt="i am using the netlify free hosting service so it's take some time to  load image  " className="object-contain w-full h-96 shadow-lg" />
             </div>
           </div>
 
